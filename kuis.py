@@ -12,6 +12,27 @@
 
 # print(c)
 
-list_a = range(1,10,2)
-x = [ [a**2, a**3] for a in list_a]
-print(x)
+# list_a = range(1,10,2)
+# x = [ [a**2, a**3] for a in list_a]
+# print(x)
+
+a = 5.5
+print(a, "is of type", type(a))
+
+a=3; print(float(a))
+
+d = "Dicoding"
+print(d[3])
+
+x = [10,15,20,25,30]
+print(x[-3:])
+
+y = 300
+print(str(y).zfill(5))
+
+
+for letter in 'Python':
+    if letter.isupper():
+        pass  
+    else:
+        print('Output: {}'.format(letter))
